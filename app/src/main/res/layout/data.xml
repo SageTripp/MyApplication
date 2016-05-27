@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="29dp"
+        android:text="数据分析"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="-1dp"
+        android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="36dp"
+        android:text="开始时间:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_x="82dp"
+        android:layout_y="30dp"
+        android:hint="开始时间"
+        android:inputType="textPersonName"
+        android:text="2016-03-08"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="181dp"
+        android:layout_y="33dp"
+        android:text="结束时间:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_x="244dp"
+        android:layout_y="28dp"
+        android:hint="结束时间"
+        android:inputType="textPersonName"
+        android:text="2016-05-02"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="103dp"
+        android:layout_height="23dp"
+        android:layout_x="341dp"
+        android:layout_y="30dp"
+        android:background="@drawable/spinbac"
+        android:gravity="center_vertical"
+        android:paddingLeft="8dp"
+        android:text="图表分析"
+        android:textColor="@android:color/black"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="416dp"
+        android:layout_height="241dp"
+        android:layout_x="31dp"
+        android:layout_y="71dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/data_chart" />
+
+    <TextView
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_x="247dp"
+        android:layout_y="253dp"
+        android:background="@android:color/white"
+        android:text="测量值的线性拟合"
+        android:textColor="@android:color/black"
+        android:textSize="9sp" />
+
+    <TextView
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_x="246dp"
+        android:layout_y="240dp"
+        android:background="@android:color/white"
+        android:text="测量值"
+        android:textColor="@android:color/black"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="226dp"
+        android:background="@android:color/white"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="9sp" />
+
+</AbsoluteLayout>

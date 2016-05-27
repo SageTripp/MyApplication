@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="35dp"
+        android:text="关于我们"
+        android:textColor="@android:color/white"
+        android:textSize="26sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_x="-1dp"
+        android:layout_y="-1dp"
+        android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="72dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="郑州欧柯奇仪器制造有限公司"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="206dp"
+        android:gravity="center"
+        android:text="手机:135-2666-4188  156-3816-3618"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="230dp"
+        android:gravity="center"
+        android:text="固话:0371-67897883 / 67897883 / 67897873"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView15" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="178dp"
+        android:gravity="center"
+        android:text="免费电话:400-669-0568"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView20" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="254dp"
+        android:gravity="center"
+        android:text="传真:0371-6571 6776"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView17" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="281dp"
+        android:gravity="center"
+        android:text="邮箱:zzokq17@163.com"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView18" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="311dp"
+        android:gravity="center"
+        android:text="地址:郑州市高新技术产业开发区瑞达路96号"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView19" />
+
+
+</AbsoluteLayout>

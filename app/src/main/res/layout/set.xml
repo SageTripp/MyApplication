@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_x="73dp"
+        android:layout_y="63dp"
+        android:background="#29ce68"
+        android:text="时间设置" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_x="73dp"
+        android:layout_y="127dp"
+        android:background="#29ce68"
+        android:text="上传地址" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_x="73dp"
+        android:layout_y="196dp"
+        android:background="#29ce68"
+        android:text="上传方式" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_x="327dp"
+        android:layout_y="196dp"
+        android:background="#29ce68"
+        android:text="关于我们" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_x="324dp"
+        android:layout_y="64dp"
+        android:background="#29ce68"
+        android:text="样品管理" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="172dp"
+        android:layout_height="33dp"
+        android:layout_x="326dp"
+        android:layout_y="129dp"
+        android:background="#29ce68"
+        android:text="检测管理" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="29dp"
+        android:text="系统设置"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="-1dp"
+        android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha" />
+
+</AbsoluteLayout>
